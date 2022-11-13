@@ -125,7 +125,7 @@ async function getRecipes() {
           //localStorage.setItem("recipes", recipes);
           saveRecipesToStorage(recipes)
           console.log(recipes.length)
-          addRecipesToDocument(recipes)
+          //addRecipesToDocument(recipes)
           resolve(recipes);
         }
       } catch (exceptionVar) {
